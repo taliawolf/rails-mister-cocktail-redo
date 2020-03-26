@@ -3,7 +3,7 @@
   <div class="cocktail-cards">
     <% @cocktails.each do |cocktail| %>
       <div class="cocktail-card">
-        <%= cocktail.name.capitalize %>
+        <%= link_to cocktail.name.capitalize, cocktail_path(cocktail) %>
       </div>
     <% end %>
   </div>
