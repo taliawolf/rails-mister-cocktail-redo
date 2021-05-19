@@ -11,7 +11,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'cloudinary', '~> 1.12.0'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'simple_form'
